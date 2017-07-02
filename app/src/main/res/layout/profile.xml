@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="center"
+        android:src="@drawable/spartanlogo"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:textColorHighlight="#64B5F6"
+        android:textColor="#0D47A1"
+        android:text="NAME:"
+        android:textStyle="bold|italic"
+        android:layout_weight="2"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:textColorHighlight="#64B5F6"
+        android:textColor="#0D47A1"
+        android:text="EMAIL_ID:"
+        android:textStyle="bold|italic"
+        android:layout_weight="2"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/medallions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
+        android:textColorHighlight="#64B5F6"
+        android:textColor="#0D47A1"
+        android:text="MEDALLIONS:"
+        android:textStyle="bold|italic"
+        android:layout_weight="2"
+        android:padding="16dp" />
+    <Button
+        android: />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spartanlogo" />
+
+    <EditText
+        android:id="@+id/username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="USERNAME"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#0D47A1"
+        android:textColorHighlight="#64B5F6"
+        android:textStyle="bold|italic" />
+
+
+    <EditText
+        android:id="@+id/password_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="PASSWORD"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#0D47A1"
+        android:textColorHighlight="#64B5F6"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#FFC107"
+        android:fontFamily="sans-serif"
+        android:text="SIGNIN SPARTAN"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#0D47A1"
+        android:textColorHighlight="#64B5F6"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

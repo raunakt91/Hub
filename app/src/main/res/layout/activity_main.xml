@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/spartanlogo"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/signinButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGNIN SPARTAN"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold|italic"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif"
+            android:background="#FFC107"
+            android:textColorHighlight="#64B5F6"
+            android:textColor="#0D47A1"/>
+
+
+
+    </RelativeLayout>
+
+
